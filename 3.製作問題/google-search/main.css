@@ -1,0 +1,79 @@
+a{
+    color:#202124;
+    text-decoration:none;
+}
+
+button {
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+a.language {color: #0000ee}
+
+li {list-style:none;}
+
+header {
+  height:50px; 
+  margin-bottom:100px;
+}
+
+.header-left {
+  float:left;
+  margin-left:-40px;
+}
+
+.header-left li {
+  float:left;
+  margin-left:20px;
+}
+
+.header-right {
+  float:right; 
+  margin-right:20px;
+}
+
+.header-right li {
+  float:left;
+  margin-left:20px;
+}
+
+.account {border-radius: 50%;}
+
+main {
+  height:500px; 
+  text-align:center;
+}
+
+input {
+  width:500px; 
+  margin-left:20px; 
+  border:none; 
+  outline: none;
+}
+
+.search {
+  margin:30px auto;
+  width:600px;
+  border:1px solid lightgray;
+  border-radius:20px; 
+  padding:10px 5px;
+}
+
+.search i {color: lightgray;}
+
+.left-button {
+  padding:10px 14px; 
+  margin-right:5px; 
+  border-radius:5px; 
+  background-color:#f1f3f4;
+}
+
+.right-button {
+  padding:10px 14px; 
+  border-radius:5px; 
+  background-color:#f1f3f4;
+}
+
+.button {font-size:15px;}
+

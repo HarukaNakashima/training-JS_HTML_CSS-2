@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tryout 製作問題</title>
+<style>
+</style>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+<link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <div class="header-left">
+           <ul>
+                <li><a href="#">Googleについて</a></li>
+                <li><a href="#">ストア</a></li>
+           </ul>
+        </div>
+        <div class="header-right">
+            <ul>
+                <li><a href="#">Gmail</a></li>
+                <li><a href="#">画像</a></li>
+                <li><a href="#"><i class="fas fa-th"></i></a></li>
+                <li><a href="#"><i><img class="account" src="https://lh3.googleusercontent.com/ogw/AOh-ky3ZNehyqCYjzu-7t-GQUdaeVXwScRx5x7jw2bLP=s32-c-mo" ></i></a></li>
+              </ul>
+        </div>
+    </header>
+    <main>
+        <div class="logo">
+            <img src="https://asset.watch.impress.co.jp/img/ktw/docs/719/162/google.jpg">
+        </div>
+        <div class="search">
+           <i class="fas fa-search"></i>
+            <!-- Google検索ボタン,I'm Feeling Luckyボタンおよびenterキーを押したときにコンソールに表示する -->
+            <input type="search" name="search" id="inputstring" vale="" onchange="getInput()">
+            <!-- microphoneアイコンを押すと、"Please speech!"とアラートに表示させる-->
+            <button type="button" onclick="alert('Please speech!')"><i class="fas fa-microphone"></i></button></i>
+        </div>
+        <div class="button">
+            <!-- それぞれ押すと、リンクに飛ぶ流れをページ遷移で再現 -->
+            <button type="button" onclick="getInput()"><span class="left-button"><a href="google.html">Google 検索</a></span></button> 
+            <button type="button" onclick="getInput()"><span class="right-button"><a href="lucky.html">I'm Feeling Lucky</a></span></button>
+        </div>
+        <div class="language">
+            <p>Google 検索は次の言語でもご利用いただけます：<a class="language" href="#">English</a></p>
+        </div>
+    </main>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
